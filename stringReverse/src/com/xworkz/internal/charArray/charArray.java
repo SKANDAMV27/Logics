@@ -21,5 +21,21 @@ public class charArray {
             System.out.print(str1.charAt(i));
         }
 
+        //Another Method String Buffer Method
+        System.out.println("");
+        String str2 = "Bettamakki";
+        char[] chars1 = str2.toCharArray();
+        StringBuffer sb = new StringBuffer(str2);
+        System.out.println(sb.length());
+        System.out.println(sb.reverse());
+
+        //Another Method String Builder
+        System.out.println("");
+        String str3 = "MeenuGoadu";
+        char[] chars2 = str3.toCharArray();
+        StringBuilder builder = new StringBuilder(str3);
+        System.out.println(str3.length());
+        System.out.println(builder.reverse());
+
     }
 }
